@@ -22,7 +22,17 @@
 
 
 /* Drill 5 - Write your code solution below */
-
+.d5-div {
+    width: 200px;
+    display: inline-block
+}
 
 
 /* Drill 6 - Write your code solution below */
+.d6-div1 {
+    display: inline;
+}
+.d6-div2 .d6-div3 {
+    display: inline-block
+    widht: 200px;
+}
