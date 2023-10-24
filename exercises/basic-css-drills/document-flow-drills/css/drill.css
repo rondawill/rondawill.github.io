@@ -23,16 +23,18 @@
 
 /* Drill 5 - Write your code solution below */
 .d5-div {
-    width: 200px;
     display: inline-block
+}
+#d5-div1 {
+    width: 250px;
+}
+#d5-div2 {
+    width: 230px;
 }
 
 
 /* Drill 6 - Write your code solution below */
-.d6-div1 {
-    display: inline;
-}
-.d6-div2 .d6-div3 {
-    display: inline-block
-    widht: 200px;
+#d6-div2, #d6-div3 {
+    display: inline-block;
+    width: 48%
 }
