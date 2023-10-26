@@ -16,7 +16,7 @@ p.warning {
     color: crimson;
 }
 
-p.warning {
+p.warning a {
     color: orangered;
 }
 
