@@ -10,8 +10,8 @@ img {
     width: 100%;
 }
 .frame-1 {
-    border: 10px solid orangered;
-    margin: 70px 12px 0px;
+    border: 3px solid orangered;
+    margin: 10px 12px 0px;
     box-shadow: -2px 2px 2px;
 }
 .frame-1 div {
@@ -21,10 +21,9 @@ img {
 }
 
 .frame-2 {
-    border: 20px solid white;
-    margin: 70px 12px 0px;
+    border: 5px solid white;
+    margin: 30px 12px 0px;
     box-shadow: -2px 2px 2px;
-    
 }
 .frame-2 p {
     color: orangered;
@@ -33,7 +32,7 @@ img {
 }
 
 .frame-3 {
-    border: 10px solid red;
+    border: 5px solid red;
     box-shadow: -2px 2px 2px;
-    margin: 5% 12px 0px;
+    margin: 5px 12px 0px;
 }
