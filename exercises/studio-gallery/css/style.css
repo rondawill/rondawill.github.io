@@ -32,7 +32,8 @@ img {
 }
 
 .frame-3 {
-    border: 5px solid red;
+    border: 10px solid red;
     box-shadow: -2px 2px 2px;
-    margin: 5px 12px 0px;
+    margin: 5px 10px 0px;
 }
+

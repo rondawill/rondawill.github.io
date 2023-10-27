@@ -6,3 +6,34 @@
 
     Good luck, and have fun!
 */
+.frame-1 {
+    border: 10px solid red;
+    box-shadow: -2px 2px 2px;
+    margin: 70px 12px 0px: 
+    padding: 12px;
+   }
+.frame-1 img {
+    width: 100%
+}
+
+.frame-2 {
+    border: 5px solid white;
+    margin: 30px 12px 0px;
+    box-shadow: -2px 2px 2px;
+}
+.frame-2 p {
+    color: orangered;
+    background-color: black;
+    width: 100%;
+}
+
+.frame-3 {
+    border: 3px solid orangered;
+    margin: 10px 12px 0px;
+    box-shadow: -2px 2px 2px;
+}
+.frame-3 div {
+    padding: 12px;
+    background-color: orange;
+    box-shadow: inset -3px 2px 2px black;
+}
