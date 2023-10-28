@@ -1,0 +1,60 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+h1 {
+    color:blue;
+}
+h4 {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border: 3px solid green;
+    padding: 12px;
+}
+#license {
+    border: 24px 10px solid;
+    border-style: solid;
+    background-color: peachpuff;
+    width: 500px;
+}
+
+#left-side {
+    border: 3px solid crimson;
+    display: inline-block;
+    width: 60%;
+}
+#right-side {
+    border: 3px solid crimson;
+    display: inline-block;
+}
+#address {
+    border: 3px solid green;
+}
+#data-left {
+    display: inline-block;
+    border: 3px solid green;
+}
+#data-right{
+    display: inline-block;
+    border: 3px solid green;
+}
+#signature {
+    text-align: center;
+    font-family: cursive;
+    border: 3px solid blue;
+}
+#id-and-expiration div {
+    display: inline-block;
+    margin: 4px;
+}
+#small-pic img {
+    width: 50px;
+    display: inline-block;
+}
+
+    
