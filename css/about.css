@@ -1,8 +1,26 @@
 img {
-    width: 35%;
+    width: 20%;
     margin: 0px auto;
+    display: inline-block;
 }
 .content p {
     display: inline-block;
     color: blue;
+}
+h2 {
+    color: orangered
+}
+
+p {
+    display: inline-block;
+    color: rgb(115, 41, 138)
+}
+h1 {
+    color: orangered;
+}
+.content {
+    display: inline-block;
+}
+.div {
+    display: inline-block;
 }
