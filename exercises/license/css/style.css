@@ -6,6 +6,7 @@
 
     Good luck, and have fun!
 */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 h1 {
     color:blue;
     margin: 8px;
@@ -50,7 +51,7 @@ h4 {
 }
 #signature {
     text-align: center;
-    font-family:cursive;
+    font-family: 'Cedarville Cursive', cursive;
     border: 3px solid blue;
 }
 #id-and-expiration div {
@@ -73,6 +74,9 @@ h4 {
 #small-pic img {
     opacity: 65%;
     width: 70px;
+}
+#right-side img {
+    width:150px
 }
 
 
