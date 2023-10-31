@@ -8,53 +8,72 @@
 */
 h1 {
     color:blue;
+    margin: 8px;
 }
 h4 {
     background-color: blue;
     color: white;
     text-align: center;
     border: 3px solid green;
-    padding: 12px;
+    padding: 1px;
+    margin: 10px;
 }
 #license {
-    border: 24px 24px solid;
+    background: linear-gradient(
+        to bottom right,
+        rgb(253, 204, 115),
+        rgb(237, 140, 79)
+    );
+    height: 290px;
     border-style: solid;
-    background-color: peachpuff;
-    width: 500px;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 #left-side {
     border: 3px solid crimson;
     display: inline-block;
-    width: 60%;
+    border-radius: 20px;
 }
 #right-side {
     border: 3px solid crimson;
     display: inline-block;
+    margin: 0px, 0px, 0px, 70px;
+    text-align: center;
 }
 #address {
     border: 3px solid green;
 }
-#data-left {
-    display: inline-block;
-    border: 3px solid green;
-}
-#data-right{
+#data-left, #data-right {
     display: inline-block;
     border: 3px solid green;
 }
 #signature {
     text-align: center;
-    font-family: cursive;
+    font-family:cursive;
     border: 3px solid blue;
 }
 #id-and-expiration div {
     display: inline-block;
-    margin: 4px;
+    margin: 1px;
 }
-#small-pic img {
-    width: 50px;
+#small-pic, #data-fields {
     display: inline-block;
 }
+#donor, 
+#real-id {
+    display: inline-block;
+    padding: px;
+}
+#span, #donor {
+    color: #ff0000;
+    font-style: bold;
+    text-align: center;
+}
+#small-pic img {
+    opacity: 65%;
+    width: 70px;
+}
+
 
     
