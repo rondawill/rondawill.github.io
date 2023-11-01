@@ -11,6 +11,7 @@ body {
     min-width: 500px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .light-container {
