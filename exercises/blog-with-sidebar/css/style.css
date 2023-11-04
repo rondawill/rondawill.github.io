@@ -48,6 +48,7 @@ body {
 #main-content {
     background-color: rgb(12, 194, 79);
     grid-area: content;
+    color: white;
 }
 #main-content h1 {
     background-color: rgb(12, 194, 79);
