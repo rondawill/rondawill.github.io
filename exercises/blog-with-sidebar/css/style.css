@@ -52,28 +52,23 @@ body {
 }
 #main-content h1 {
     background-color: rgb(12, 194, 79);
-    margin-bottom: 0px;
-    padding: 0px;
+    margin-bottom: 1px;
     color: white;
     font-size: 36px;
 }
 #main-content h2 {
     background-color: rgb(12, 194, 79);
-    margin-bottom: 0px;
-    padding: 0px;
+    margin: 1px;
     color: white;
     font-size: 24px;
 }
 #main-content h4 {
     background-color: rgb(12, 194, 79);
-    margin-bottom: 0px;
-    padding: 0px;
     color: white;
     font-size: 18px;
+    margin: 1px;
 }
 p {
-    display: inline;
+    display: inline-block;   
 }
-img {
-    display: inline;
-}
+
