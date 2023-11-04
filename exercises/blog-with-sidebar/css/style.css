@@ -71,4 +71,7 @@ body {
 .first {
     display: inline;   
 }
+img {
+    float: left;
+}
 
