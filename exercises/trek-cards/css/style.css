@@ -1,0 +1,103 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: serif;
+}
+
+#trek-card-1 {
+    width: 90vw;
+    max-width: 250px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(215, 233, 215);
+}
+.card-style-1 {
+    width: 350px;
+    border: 2px lightgreen;
+    box-shadow: 4px -4px 12px black;
+    background-color: rgb(167, 211, 167);
+    margin: 24px;
+}
+
+.card-style-1 img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.card-stlye-1 h2 {
+    font-size: 36px;
+    margin-top: 12px;
+}
+.card-style-1 p {
+    font-size: 18px;
+}
+
+.card-style-1 a {
+    display: block;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    transition:
+     background-color 0.5s,
+     color 0.5s
+     ;
+     object-fit: fill;
+     width: 100%;
+     height: 70px;
+}
+
+#trek-card-2 {
+    width: 90vw;
+    max-width: 350px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(215, 233, 215);
+}
+
+#trek-card-3 {
+    width: 90vw;
+    max-width: 350px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(215, 233, 215);
+}
+
+#trek-card-4 {
+    width: 90vw;
+    max-width: 350px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(215, 233, 215);
+}
+.card-container-1 a:hover {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    color: darkgreen;
+    background: transparent;
+    border: 24px solid darkgreen;
+}
+
