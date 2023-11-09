@@ -49,7 +49,7 @@ body {
     margin: 0px auto;
 }
     
-#main-section {
+#main-section, #last-section {
     background: radial-gradient(at top left, #d86fee,#8122ed);
     padding: 48px;
 }
@@ -98,12 +98,6 @@ body {
     margin: 0pxauto; 
 }
 
-#main-section {
-    background: radial-gradient(at top left, #d86fee,#8122ed);
-    padding: 48px;
-}
-
-
 .comparisons-container {
     text-align: center;
     margin: 60px 0px;
@@ -112,8 +106,6 @@ body {
 .comparisons-container h3 {
     font-size: 36px;
 }
-
-
 
 .comparisons-layout-1 {
     display: flex;
@@ -150,8 +142,6 @@ body {
     padding-bottom: 12px;
 }
 
-
-
 .comparisons-layout-2 {
     background-color: #3f0791;
     padding: 36px;
@@ -163,7 +153,7 @@ body {
     color: #bfefff;
 }
 
-.comparison-row.comparison-header {
+.comparison-row .comparison-header {
     font-weight: bold;
 }
 
@@ -171,8 +161,6 @@ body {
     flex: 1;padding: 24px;
     font-size: 24px;
 }
-
-
 
 .comparisons-layout-3 {
     display: grid;
