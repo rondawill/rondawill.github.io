@@ -31,5 +31,11 @@ body {
 }
 #animagram-card-1 {
     text-align: center;
-    justify-content: right;
+}
+.animagram-footer {
+    justify-content: space-between;
+}
+.animagram-header {
+    justify-content: space-between;
+    padding: 24px;
 }
