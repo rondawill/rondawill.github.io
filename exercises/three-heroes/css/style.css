@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box
+}
+    
+body {
+    margin: 0px;font-family: sans-serif;
+}
+    
+#hero-1 {
+    background-image: url("../images/turtlewon.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#hero-1 h1 {
+    font-size: 8vw;
+}
+
+
+.spacer {
+    height: 50vh;
+    background-image: url("../images/congrats.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#hero-2 {
+    background-image: url("../images/champ.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 200;
+}
+    
+    
+#hero-2 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 8vw;
+}
+
+#hero-2 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+    
+#hero-2 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+    
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: gold;
+    color: black;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-3 {
+    background-image: url("../images/grad.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+    
+    
+#hero-3 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+    
+#hero-3 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+    
+#hero-3 h4 {
+    font-size: 3vw;
+    margin: 5px 5vw 5px 5px;
+}
