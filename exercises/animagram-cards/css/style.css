@@ -45,7 +45,7 @@ body {
 }
 .animagram-header {
     font-size: 24px;
-    display: inline-block;
+    display: flex;
     text-decoration: none;
     padding: 24px;
     margin: 3vh 3vw 10vh 0px;
@@ -53,4 +53,10 @@ body {
 }
 .brand-name {
     text-align: right;
+}
+.animagram-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 3vh 3vw 10vh 0px;
 }
