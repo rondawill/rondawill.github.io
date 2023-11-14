@@ -27,12 +27,14 @@ h1 {
 #home-1 h2 {
     font-size: 8vw;
     margin-bottom: 5vh;
-    margin-right: 5vw; 
+    margin-right: 5vw;
+    color: rgb(207, 18, 144); 
 }
     
 #home-1 h4 {
     font-size: 3vw;
     margin: 0px 5vw 0px 0px;
+    color:rgb(240, 233, 240);
 }
     
 #home-1 a {
