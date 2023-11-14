@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box
+}
+    
+body {
+    margin: 0px;font-family: serif;
+    background: 
+        linear-gradient(-50deg, #ffdbdb, #fff7f7, #ffc9c9)
+    ;
+}
+
+#home-1 {
+    background-image: url("../images/goat2.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+    
+h1 {
+    color: rgb(93, 18, 207);
+} 
+
+#home-1 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw; 
+}
+    
+#home-1 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+    
+#home-1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: palevioletred;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+.spacer {
+    height: 50vh;
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
