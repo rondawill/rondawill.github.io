@@ -9,27 +9,24 @@
 }
 
 body {
-    margin: 0;
+    margin: 0px;
+    font-family: sans-serif;
 }
 
-h1,
-h2,
-h3,
-a {
-    font-family: 'Secular One', sans-serif;
+.card h1, .card h2, .card h3, .card a { 
+    font-size: 1.25rem;
 }
 
-h4,
 p {
-    font-family: 'Assistant', sans-serif;
+    font-size: 1.25rem;
 }
 
 h1 {
-    font-size: 60px;
-    margin-bottom: 0;
+    font-size: 1rem;
+    margin-bottom: 0px;
 }
 
-h4 {
+h3 {
     font-size: 18px;
     margin-top: 4px;
 }
@@ -38,20 +35,24 @@ a {
     text-decoration: none;
 }
 
-#nav,
-#nav a,
-#footer a {
+#nav, #nav a, #footer a {
     color: indigo;
 }
 
-#nav a:hover,
-#footer a:hover {
+#nav a:hover, #footer a:hover {
     color: purple;
     text-decoration: underline;
 }
 
 #footer ul {
-    padding: 0;
+    width: 80vw;
+    max-width: 1000px;
+    margin: 0px auto;
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    padding: 25px 0px;
+    justify-content: center;
 }
 
 /****************************************************************************
@@ -60,7 +61,7 @@ a {
 #nav {
     align-items: center;
     display: flex;
-    margin: 0 24px;
+    margin: 0px 24px;
     min-height: 50px;
 }
 
@@ -73,42 +74,36 @@ a {
     justify-content: center;
 }
 
-#nav-links,
-.social-media {
+#nav-links, .social-media {
     display: flex;
     list-style-type: none;
 }
 
-#nav-links li,
-.social-media li {
-    padding: 0 4px;
+#nav-links li, .social-media li {
+    padding: 0px 4px;
 }
 
 #nav .social-media {
     justify-content: flex-end;
-    padding-left: 0;
+    padding-left: 0px;
 }
 
 .social-media i {
     font-size: 20px;
 }
 
-#nav,
-#nav a,
-#footer a {
+#nav, #nav a, #footer a {
     color: indigo;
 }
 
-#nav a:hover,
-#footer a:hover {
+#nav a:hover, #footer a:hover {
     text-decoration: underline;
 }
 
-#nav ul,
-#nav h2 {
+#nav ul, #nav h2 {
     flex: 1;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 /****************************************************************************
@@ -137,19 +132,18 @@ a {
 }
 
 #hero h1 {
-    font-size: 120px;
+    font-size: 48px;
 }
 
 #hero h3 {
-    font-size: 60px;
+    font-size: 24px;
 }
 
 /****************************************************************************
   Link styles
 ****************************************************************************/
 
-#hero a,
-.card a {
+#hero a, .card a {
     background-color: white;
     color: indigo;
     border: 2px solid indigo;
@@ -161,16 +155,14 @@ a {
     transition: transform 0.25s;
 }
 
-#hero a:hover,
-.card a:hover {
+#hero a:hover, .card a:hover {
     transform: scale(1.05);
 }
 
 /****************************************************************************
   Card styles
 ****************************************************************************/
-.three-cards,
-.two-cards {
+.three-cards, .two-cards {
     display: flex;
 }
 
@@ -189,7 +181,8 @@ a {
 }
 
 .three-cards {
-    margin-top: 48px;
+    align-items: center;
+    margin-top: 48px 0px;
 }
 
 .two-cards {
@@ -198,8 +191,10 @@ a {
 }
 
 .two-cards .card {
-    border: 0px;
-    box-shadow: none;
+   border: 0px;
+   box-shadow: none;
+   display: flex;
+   flex-direction: column;
 }
 
 .two-cards .card img {
@@ -211,3 +206,17 @@ a {
 ****************************************************************************/
 
 /* TODO: Add your media query code here */
+@media screen and (max-width: 768px) 
+{
+    .two-cards, .three-cards {
+    display: flex;
+    flex-direction: column;
+    }
+    #nav {
+    display: flex;
+    flex-direction: column;
+    }
+    #hero {
+        font-size: 1.125rem;
+    }
+}
