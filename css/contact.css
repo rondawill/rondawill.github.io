@@ -10,31 +10,6 @@ body {
     ;
 }
 
-#layout {
-    max-width: 800px;
-    margin: 36px auto;
-    text-align: center;
-}
-
-h3 {
-    color: blueviolet;
-}
-h1 {
-    color: blueviolet;
-}
-
-.graphic-design-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-}
-    
-.graphic-design-gallery img {
-    height: 250px;
-    flex: 1;
-    object-fit: cover;
-}
-
 #navbar1 {
     background: 
     linear-gradient(-50deg, #ffdbdb, palevioletred, #ffc9c9);
@@ -52,7 +27,4 @@ h1 {
 #navbar1 h1 {
     color: white 
 }
-    
-
-    
     

@@ -53,3 +53,21 @@ h1 {
     background-size: cover;
     background-attachment: fixed;
 }
+
+#navbar1 {
+    background: 
+    linear-gradient(-50deg, #ffdbdb, palevioletred, #ffc9c9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+    
+#navbar1 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#navbar1 h1 {
+    color: white 
+}
