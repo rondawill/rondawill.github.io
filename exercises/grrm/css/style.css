@@ -457,7 +457,7 @@ body {
     #grid-layout {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-areas:
+        grid-template-areas: 1;
     }
     .header h1 {
     font-size: 1.625rem;
