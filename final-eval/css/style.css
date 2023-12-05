@@ -122,6 +122,11 @@ h2 {
 h3 {
     text-align: center;
 }
+#last {
+    text-align: center;
+    padding: 48px;
+    margin: 48px;
+}
 
 
 @media screen and (max-width: 481px) {
