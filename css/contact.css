@@ -38,7 +38,12 @@ body {
     font-size: 14px;}
     
     form {
-    background-color: white;padding: 36px;border: 2px solid #CCCCCC;border-radius: 2px;}
+        background: 
+        linear-gradient(-50deg, #ffdbdb, palevioletred, #ffc9c9);
+    padding: 36px;
+    border: 2px solid #CCCCCC;
+    border-radius: 2px;
+}
     
     form div label {
     display: block;margin-bottom: 8px;font-weight: bold;}
@@ -53,7 +58,12 @@ body {
     
     
     input[type=submit] {
-    width: auto;background-color: #0e6de1;color: white;border: 0;border-radius: 3px;min-width: 75px;}
+    width: auto;background-color: #0e6de1;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    min-width: 75px;
+}
     
     
     input:not(:focus):not(:placeholder-shown):invalid {
